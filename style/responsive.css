@@ -38,6 +38,20 @@
      .choice-container > .card-third{
         padding: 0px 0px;
     }
+    /* simple place */
+    .simple-pleace{
+        flex-direction: column;
+    }
+    .pleace-contant{
+        width: 100%;
+    }
+    .simple-pleace > .pleace-video video{
+        width: 100%;
+    }
+    /* discount and from */
+    .from-and-dscount-container{
+        flex-direction: column;
+    }
 
 }
 
