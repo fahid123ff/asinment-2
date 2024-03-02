@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    font-family: "Mulish", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    max-width: 1170px;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+    width: 100%;
+    text-align: center;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+.hero-travel{
+    font-size: 2.25rem ;
+    font-weight: 800;
+    color: rgb(19, 19, 24);
+}
+.hero-travel > .travel{
+    color: rgb(255, 84, 0);
+}
+.nav-title img{
+    width: 48px;
+}
+.nav-description{
+    display: flex;
+    gap: 40px;
+}
+.nav-description a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(66, 66, 71);
+
+}
+
+
+/* banner section start  */
+/* .banner-background-img{
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+.banner-container{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png) ;
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+     width: 100%;
+    width: 100%;
+    min-height: 500px;
+    border-radius: 15px;
+} */
+
+.banner-background-img{
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.banner-background-img > img{
+    width: 100%;
+    height: 100%;
+}
+.btn-primary{
+    background-color: rgb(255, 84, 0);
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 170px;
+    height: 50px;
+}
+.banner-input{
+    width: 170px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 8px;
+}
+.banner-header{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.banner-descriptin{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.banner-container{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    padding: 60px;
+}
+.selectin-fild{
+ display: flex;
+ gap: 40px;
+ justify-content: center;
+ margin-top: 50px;
+    padding: 20px ;
+ background-color: rgba(255, 255, 255, 0.3);
+ background-clip: input;
+ border-radius: 10px;
+ 
+}
+
+/* banner section end */

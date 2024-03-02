@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+
+    }
+ 
+    .nav-description > a{
+        display: none;
+    }
+    /* banner section */
+    .banner-container{
+        display: none;
+    }
+  
+
+}
