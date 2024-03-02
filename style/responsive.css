@@ -47,10 +47,22 @@
     }
     .simple-pleace > .pleace-video video{
         width: 100%;
+      
     }
+    .pleace-video > .bangladesh{
+      
+        left: 2%;
+    }
+  
     /* discount and from */
     .from-and-dscount-container{
         flex-direction: column;
+    }
+    /*  */
+     .discount-container > .discount-seventy-prsent{
+        padding: 10px;
+        bottom: 18%;
+        right: 2%;
     }
 
 }
