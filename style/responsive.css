@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+    main{
+        padding: 20px;
+    }
     .nav-container{
         flex-direction: column;
 
@@ -11,6 +14,31 @@
     .banner-container{
         display: none;
     }
-  
+    /*  */
+    .our-tur{
+        flex-direction: column;
+ 
+    }
+    .our-tour-descriptin{
+        width: 100%;
+   
+    }
+    .our-tour-img img{
+        width: 100%;
+     
+    }
+    /* destination section */
+    .first-two-images{
+        flex-direction: column;
+    }
+    /* choice section */
+    .cards-container{
+       flex-direction: column;
+    }
+     .choice-container > .card-third{
+        padding: 0px 0px;
+    }
 
 }
+
+

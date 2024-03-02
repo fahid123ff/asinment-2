@@ -6,7 +6,12 @@ body{
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+  
+}
+main{
+    max-width: 1170px;
+    margin: 0 auto;
+   
 }
 
 .nav-container{
@@ -67,8 +72,7 @@ body{
 } */
 
 .banner-background-img{
-    max-width: 1170px;
-    margin: 0 auto;
+   
     position: relative;
     
 }
@@ -123,3 +127,116 @@ body{
 }
 
 /* banner section end */
+
+/* our tour start */
+.our-tur{
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    gap: 30px;
+}
+.our-tour-descriptin{
+    width: 100%;
+}
+
+.our-tour-img {
+    width: 100%;
+}
+.our-tour-descriptin h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.our-tour-descriptin p{
+    color: rgba(19, 19, 24, 0.7);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.our-tour-descriptin ul li{
+    color: rgba(19, 19, 24, 0.7);
+    padding-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* destination section */
+.destination-container{
+    margin-top: 60px;
+   
+}
+.destination-information{
+    text-align: center;
+  
+}
+.destination-information h2{
+    font-size: 2.5rem;
+    color: Choose Your Destination;
+    font-weight: 800;
+}
+.destination-information p{
+    margin-top: 24px;
+    color: rgba(19, 19, 24, 0.7);
+}
+
+.first-two-images{
+  display: flex; 
+  gap: 20px;
+  margin-top: 30px; 
+}
+.maldiv img{
+    width: 100% ;
+   
+}
+ .maldiv{
+    position: relative;
+ }
+ .maldiv h2{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color: white;
+ }
+
+
+ /* start choice section */
+ .choice-description{
+    text-align: center;
+    margin-top: 60px;
+ }
+ .choice-description h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+ }
+ .choice-description p{
+    color: rgba(19, 19, 24, 0.7);
+    margin-top: 20px;
+ }
+ .choice-card{
+    padding: 30px;
+    border-radius: 8px;
+ }
+ .choice-card h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: rgb(19, 19, 24);
+    padding: 10px 0px;
+ }
+ .choice-card p{
+    color: rgba(19, 19, 24, 0.7);
+ }
+ .choice-card img{
+    width: 64px;
+    height: 64px;
+ }
+ .cards-container{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+
+ }
+ .card-third{
+   
+    margin: 20px auto;
+    padding: 0px 280px;
+   
+ }
